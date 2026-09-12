@@ -348,6 +348,7 @@ public class JechConfig {
                             "mekanism.common.content.qio.QIOSearchQueryParser$QueryType:lambda$static$2",  // Mekanism CE Unofficial (QIO)
                             "mekanism.common.content.qio.QIOSearchQueryParser$QueryType:lambda$static$1",  // Mekanism CE Unofficial (QIO)
                             "mekanism.common.content.qio.QIOSearchQueryParser$QueryType:lambda$static$0",  // Mekanism CE Unofficial (QIO)
+                            "mekanism.qioprocessing.client.gui.GuiQIOManagementMachinePanel:matchesSearch",  // Mekanism CE Unofficial (QIO Integrated Management Terminal)
                             "electroblob.wizardry.spell.Spell:matches",  // Electroblob's Wizardry (Lectern)
                             "noppes.npcs.client.gui.GuiNpcMobSpawner:getSearchList",  // Custom NPCs
                             "noppes.npcs.client.gui.GuiNpcMobSpawnerMounter:getSearchList",  // Custom NPCs (Mounter)
@@ -359,7 +360,20 @@ public class JechConfig {
                             "com.blamejared.worldbook.client.gui.GuiWorldBook:filter",  // World Book
                             "mrtjp.projectred.transportation.GuiRequester$$anonfun$stringMatch$1$1:apply",  // Project Red Integration (Project Red Transmission Routed Request pipe)
                             "bq_standard.client.gui.editors.tasks.CanvasAdvancementSearch:queryMatches",  // Standard Expansion (Advancement Search)
-                            "net.silentchaos512.lib.guidebook.entry.GuideEntry:fitsFilter"  // Silent Lib (Guide)
+                            "net.silentchaos512.lib.guidebook.entry.GuideEntry:fitsFilter",  // Silent Lib (Guide)
+                            "com.pixelmonmod.pixelmon.comm.packetHandlers.clientStorage.newStorage.pc.ServerQueryPC:search",  // Pixelmon (PC)
+                            "com.pixelmonmod.pixelmon.comm.packetHandlers.clientStorage.newStorage.pc.ServerQueryPC:lambda$search$0",  // Pixelmon (PC)
+                            "pavocado.exoticbirds.gui.GuiBirdBook:UpdateBirdSearch",  // Exotic Birds (Bird Encyclopedia)
+                            "net.shadowmage.ancientwarfare.automation.gui.GuiWarehouseControl:matchesSearch",  // Ancient Warfare 2 (Warehouse Control Block)
+                            "com.brilliafy.magicstorage.gui.GuiCraftingAccess:doesStackMatchSearch",  // Magic Storage
+                            "moe.plushie.armourers_workshop.client.gui.skinlibrary.GuiSkinLibrary:func_73863_a:",  // Armourer's Workshop (Skin Library)
+                            "com.github.aeddddd.ae2enhanced.container.ContainerOmniTerm:fallbackPageQuery",  // AE2Enhanced (Omni Terminal)
+                            "com.github.aeddddd.ae2enhanced.container.ContainerOmniTerm:fallbackSearch",  // AE2Enhanced (Omni Terminal)
+                            "com.simplestructurescanner.client.gui.GuiStructureScanner$StructureListWidget:applyFilter", // Simple Structure Scanner (Keybind P)
+                            "matteroverdrive.gui.pages.PageGuideEntries:searchFilterMatch",  // Matter Overdrive (Data Pad)
+                            "com.xcompwiz.mystcraft.client.gui.GuiElementSurfaceControlsBase:updateCollection",  // Mystcraft (Symbol Portfolio)
+                            "com.xcompwiz.mystcraft.client.gui.element.GuiElementPageSurface:_renderBackground",  // Mystcraft (Writing Desk)
+                            "com.fuzs.enchantinginfuser.client.gui.screens.inventory.GuiInfuser:refreshSearchResults"  // Enchanting Infuser Backport
                     };
                 case LIST_DEFAULT_REGEXP:
                     return new String[]{
