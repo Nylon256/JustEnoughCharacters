@@ -1,6 +1,7 @@
 "suffix": [
 ]
 "contains": [
+  "dev.ftb.extendedexchange.client.gui:updateValidItemList()V", # FTB Extended Exchange (since 1802.2.7)
 ]
 "equals": [
 ]
